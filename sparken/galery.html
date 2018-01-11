@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="aktivitystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+
+    <link rel="shortcut icon" type="image/png" href="staff/img/favicon.png">
+    <title>S-Parken &mdash; just with fun</title>
+</head>
+
+<header>
+    <div id="home"> </div>
+    <header>
+        <div class="btn-group">
+            <div class="menu">
+                <a href="kontakt.html"><button>Kontakt</button></a>
+                <a href="galery.html"><button style="background-color: #3e8e41">Galleri</button></a>
+                <a href="aktivity.html"><button >Aktiviteter</button></a>
+                <a href="inds.html"> <button>Indsatsområder</button></a>
+                <a href="index.html"><button>Home</button></a>
+            </div>
+            <img src="staff/img/logo.png" class="logo">
+
+        </div>
+
+    </header>
+
+</header>
+
+<body>
+
+
+<div class="w3-row-padding" style="padding-top: 100px">
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="kulturbrofestival.html"> <img src="staff/img/kultur1.jpg" style="width:100%;height:265px"  class="w3-hover-opacity"></a>
+        <div class="w3-container w3-white">
+            <p style="color: black ; text-align: center;  font-family: 'Raleway', sans-serif;" ><b>Kulturbrofestival 2016</b></p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="eid.html"> <img src="staff/img/eid101.jpg" style="width:100% ;height:265px" class="w3-hover-opacity"> </a>
+        <div class="w3-container w3-white">
+            <p style="color: black; text-align: center;  font-family: 'Raleway', sans-serif;"><b>Eid Fest 2016</b></p>
+        </div>
+    </div>
+    <div class="w3-third w3-container">
+        <a href="dinnabo.html"><img src="staff/img/din1.jpg" style="width:100%;height:265px" class="w3-hover-opacity"> </a>
+        <div class="w3-container w3-white">
+            <p style="color: black; text-align: center ;  font-family: 'Raleway', sans-serif;"><b>Din Nabo-Måned</b></p>
+        </div>
+    </div>
+</div>
+
+<!-- Second Photo Grid-->
+<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="urban.html"> <img src="staff/img/urban.jpg"  style="width:100% ;height:265px" class="w3-hover-opacity"> </a>
+        <div class="w3-container w3-white">
+            <p style="color: black; text-align: center;  font-family: 'Raleway', sans-serif;"><b>Urban Friday - Graffiti workshop</b></p>
+        </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="vejle.html"> <img src="staff/img/vejle1.jpg" style="width:100% ;height:265px" class="w3-hover-opacity"></a>
+        <div class="w3-container w3-white">
+            <p style="color: black; text-align: center;  font-family: 'Raleway', sans-serif;"><b>Vejleåparken</b></p>
+        </div>
+    </div>
+
+</div>
+<footer class="w3-center w3-black " style="padding:50px">
+    <a href="#home" class="w3-button w3-light-grey" style="border-radius: 8px; "><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section" style="float: right;">
+        <a href="https://www.facebook.com/helhedsplanenivejleaparken/"  style="font-size: 35px;"> <i class="fa fa-facebook-official w3-hover-opacity" ></i>
+        </a>
+    </div>
+
+    <button class="button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto; float: left; margin-bottom: 20px">Login</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button class="button1" type="submit">Login</button>
+
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+            </div>
+        </form>
+    </div>
+</footer>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>

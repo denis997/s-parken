@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    height: 100%;
+}
+header {
+
+}
+.logo {  width: 160px;
+    margin-left: 110px;
+
+}
+.btn-group button {
+    background-color: #8ec63f; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 25px 30px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: right; /* Float the buttons side by side */
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.menu {
+    margin-right:120px;
+
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+.dolnyrad1{
+    padding-left: 200px;
+
+}
+/* denis pisal */
+.img-team {
+    width: 100%;
+}
+
+/*icons */
+
+.fa fa-phone {
+" aria-hidden="true"
+}
+
+
+
+

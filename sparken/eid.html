@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="aktivitystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+
+
+    <link rel="shortcut icon" type="image/png" href="staff/img/favicon.png">
+    <title>S-Parken &mdash; just with fun</title>
+</head>
+
+<header>
+    <div id="home"> </div>
+    <header>
+        <div class="btn-group">
+            <div class="menu">
+                <a href="kontakt.html"><button>Kontakt</button></a>
+                <a href="galery.html"><button style="background-color: #3e8e41">Galleri</button></a>
+                <a href="aktivity.html"><button >Aktiviteter</button></a>
+                <a href="inds.html"> <button>Indsatsområder</button></a>
+                <a href="index.html"><button>Home</button></a>
+            </div>
+            <img src="staff/img/logo.png" class="logo">
+
+        </div>
+
+    </header>
+
+</header>
+
+
+<body>
+<div class="back">
+    <a href="galery.html" > <i class="fa fa-chevron-left "></i>
+    </a></div>
+<header class="w3-center w3-margin-bottom" style="margin-top: 20px; color: #00aeef;">
+
+    <h1 class="nadpis" style="font-family: 'Raleway', sans-serif;"> Eid Fest 2016</h1>
+
+</header>
+<div class="w3-row" id="myGrid" style="margin-top:50px">
+    <div class="w3-third">
+        <img src="staff/img/eid1.jpg"  style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <img src="staff/img/eid2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+        <img src="staff/img/eid3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+
+    </div>
+
+    <div class="w3-third">
+
+        <img src="staff/img/eid8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <img src="staff/img/eid9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <img src="staff/img/eid10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <img src="staff/img/eid11.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-third">
+        <img src="staff/img/eid4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+        <img src="staff/img/eid5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <img src="staff/img/eid6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+    </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+</div>
+
+
+<footer class="w3-center w3-black " style="padding:50px">
+    <a href="#home" class="w3-button w3-light-grey" style="border-radius: 8px; "><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section" style="float: right;">
+        <a href="https://www.facebook.com/helhedsplanenivejleaparken/"  style="font-size: 35px;"> <i class="fa fa-facebook-official w3-hover-opacity" ></i>
+        </a>
+    </div>
+
+    <button class="button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto; float: left; margin-bottom: 20px">Login</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button class="button1" type="submit">Login</button>
+
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+            </div>
+        </form>
+    </div>
+</footer>
+
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
+
+</body>
+</html>

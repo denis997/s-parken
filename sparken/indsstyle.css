@@ -1,0 +1,108 @@
+header { background-color: white;
+
+}
+
+.logo {  width: 160px;
+    margin-left: 110px;
+
+}
+
+body {
+    background: url("staff/img/background1.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+
+.btn-group button {
+    background-color: #8ec63f; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 25px 30px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: right; /* Float the buttons side by side */
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+.menu {
+    margin-right:120px;
+
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+
+.tt  {
+    text-align: left;
+    margin-left: 20%;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.tt1  {
+    text-align: left;
+    margin-left: 15%;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.ff2  {
+    color: #da1c5c;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+.ff3  {
+    color: #662d91;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+.ff4  {
+    color: #00aeef;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+.ff1  {
+    color: #8dc63f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+.ff5 {
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+.ff0  {
+
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+

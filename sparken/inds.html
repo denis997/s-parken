@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="indsstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+    <link rel="shortcut icon" type="image/png" href="staff/img/favicon.png">
+    <title>S-Parken &mdash; just with fun</title>
+</head>
+<header><div id="home"> </div>
+    <div class="btn-group">
+        <div class="menu">
+            <a href="kontakt.html"><button>Kontakt</button></a>
+            <a href="galery.html"><button>Galleri</button></a>
+            <a href="aktivity.html"><button>Aktiviteter</button></a>
+            <a href="inds.html"> <button style="background-color: #3e8e41">Indsatsområder</button></a>
+            <a href="index.html"><button>Home</button></a>
+        </div>
+        <img src="staff/img/logo.png" class="logo">
+
+    </div>
+
+</header>
+<body>
+
+
+    <p class="w3-center w3-large"> <br> <div class="ff5"> <b>Helhedsplanen arbejder med 4 forskellige indsatsområder
+        der rummer mange og forskelligartede formål.</b></br>
+
+     <br>Formålene indebærer bl.a.:</br></div>
+    <div class="tt"><br> •at støtte op om social, kulturel og etnisk mangfoldighed i Vejleåparken</br>
+        <br>•at formidle Vejleåparkens image ved at udbrede succeshistorier</br>
+        <br>•at skabe tilbud der inspirerer og motiverer børnefamilier og forældre</br>
+        <br>•at arbejde med at styrke beboerdemokratiet i Vejleåparken og bygge bro mellem afdelingsbestyrelserne i området</br>
+        <br>•at bidrage til og arbejde for en meningsfuld hverdag for børn og unge i Vejleåparken præget af kulturel og samfundsmæssig forståelse</br>
+</div>   </p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-quarter">
+            <img src="staff/img/troj.png">
+            <p class="w3-large"><b><div class="ff2"> Forebyggelse og Forældreansvar</div></b></p>
+            <p>
+            <div class="tt1"> <br>•Familieakademiet</br>
+                <br> •Feriestøtte til udsatte Familier - årlig sommerferie for økonomisk trængte børnefamilier</br>
+                <br>•Forældrenetværk</br></div>  </p>
+        </div>
+        <div class="w3-quarter">
+            <img src="staff/img/troj2.png">
+            <p class="w3-large"><b><div class="ff3">Uddannelse og Beskæftigelse</div></b></p>
+            <p><div class="tt1"> <br>•Fremskudt UU-vejledning i Vejleåparken</br>
+                <br>•Lommepengeprojekt</br>
+                <br>•Fritidsjobvejledning</br>
+                <br>• Praktikpladser</br>
+                <br>•Virksomheds- og ungdomsuddannelsesbesøg</br></div>
+
+
+            </p>
+        </div>
+        <div class="w3-quarter">
+            <img src="staff/img/troj3.png">
+            <p class="w3-large"><b><div class="ff4">Kriminalpræventiv indsats</div></b></p>
+            <p><div class="tt1"><br>•Brandkadet</br>
+                <br>• Urban Music</br></div></p>
+        </div>
+        <div class="w3-quarter">
+            <img src="staff/img/troj4.png">
+            <p class="w3-large"><b><div class="ff1"> Tryghed og Trivsel</div></b></p>
+            <p> <div class="tt1"><br>•Urban Dance</br>
+                <br>•Urban Explore</br>
+                <br>•Urban Voice</br>
+                <br>• Nabohjælp og det gode naboskab</br>
+                <br>• Kommunikation</br>
+                <br>•Udvidet økonomisk rådgivning</br></div> </p>
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="w3-center w3-black " style="padding:50px">
+    <a href="#home" class="w3-button w3-light-grey" style="border-radius: 8px; "><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section" style="float: right;">
+        <a href="https://www.facebook.com/helhedsplanenivejleaparken/"  style="font-size: 35px;"> <i class="fa fa-facebook-official w3-hover-opacity" ></i>
+        </a>
+    </div>
+
+    <button class="button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto; float: left; margin-bottom: 20px">Login</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button class="button1" type="submit">Login</button>
+
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+            </div>
+        </form>
+    </div>
+</footer>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
